@@ -1,0 +1,8 @@
+README.md
+setup.py
+amd_docs_theme/__init__.py
+amd_docs_theme.egg-info/PKG-INFO
+amd_docs_theme.egg-info/SOURCES.txt
+amd_docs_theme.egg-info/dependency_links.txt
+amd_docs_theme.egg-info/requires.txt
+amd_docs_theme.egg-info/top_level.txt
