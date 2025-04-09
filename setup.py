@@ -1,15 +1,19 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='amd-docs-theme',
-    version='0.0.1',
-    url='https://github.com/Xilinx/Image-Collateral',
-    author='Your Name',
-    license='MIT',
+    name="amd-docs-theme",
+    version="0.1",
     packages=find_packages(),
+    package_data={
+        'amd_docs_theme': [
+            '_static/*', 
+            '_templates/*', 
+            '_themes/xilinx/*',
+        ]
+    },
     include_package_data=True,
     install_requires=[
-        'sphinx>=2.3',
+        'sphinx>=5.1.1',
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
