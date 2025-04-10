@@ -1,16 +1,10 @@
 Metadata-Version: 2.4
 Name: amd-docs-theme
-Version: 0.0.1
-Home-page: https://github.com/Xilinx/Image-Collateral
-Author: Your Name
-License: MIT
+Version: 0.1.1
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
-Requires-Dist: sphinx>=2.3
-Dynamic: author
+Requires-Dist: sphinx>=5.1.1
 Dynamic: classifier
-Dynamic: home-page
-Dynamic: license
 Dynamic: requires-dist
