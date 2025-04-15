@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="amd-docs-theme",
-    version="0.1.7",
+    version="0.1.8",
     packages=find_packages(),
     package_data={
         'amd_docs_theme': [
