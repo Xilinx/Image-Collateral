@@ -2,13 +2,25 @@ from setuptools import setup, find_packages
 
 setup(
     name="amd-docs-theme",
-    version="0.2.0",
+    version="0.2.1",
     packages=find_packages(),
     package_data={
         'amd_docs_theme': [
-            '_static/*', 
-            '_templates/*', 
-            '_themes/xilinx/*',
+            "theme.conf",
+            "templates/*.html",
+            "static/css/*.css",
+            "static/css/fonts/*.woff",
+            "static/css/fonts/*.woff2",
+            "static/css/fonts/*.eot",
+            "static/css/fonts/*.ttf",
+            "static/css/fonts/*.svg",
+            "static/img/*.ico",
+            "static/img/*.png",
+            "static/img/*.svg",
+            "static/js/*.js",
+            "locale/*.pot",
+            "locale/*/LC_MESSAGES/*.mo",
+            "locale/*/LC_MESSAGES/*.po",
         ]
     },
     include_package_data=True,
