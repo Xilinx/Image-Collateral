@@ -1,0 +1,23 @@
+name = "amd_docs_theme"
+description = "A custom Sphinx theme for AMD documentation."
+
+[options]
+inherit = "basic"
+pygments_style = "default"
+
+[options.theme_conf]
+canonical_url = ""
+analytics_id = ""
+analytics_anonymize_ip = false
+collapse_navigation = true
+sticky_navigation = true
+navigation_depth = 4
+includehidden = true
+titles_only = ""
+logo_only = ""
+display_version = true
+prev_next_buttons_location = "bottom"
+style_external_links = false
+style_nav_header_background = ""
+vcs_pageview_mode = ""
+stylesheet = "static/css/theme.css"
