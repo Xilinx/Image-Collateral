@@ -1,0 +1,4 @@
+include amd_docs_theme/theme.toml
+recursive-include amd_docs_theme/templates *
+recursive-include amd_docs_theme/static *
+recursive-include amd_docs_theme/locale *
