@@ -1,0 +1,316 @@
+﻿
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" whc:version="21.0" lang="en-US" dir="ltr">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="Language" content="en" /><meta name="Location" content="us" />
+<meta name="wh-path2root" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="keywords" content="2024.2, Vitis Documentation"/>
+<meta name="LinkTitle" content="Vitis Documentation"/>
+<meta name="Document ID" content="UG1416"/>
+<meta name="description" content="Describes how to use the Vitis&trade; Unified Software Development Platform."/>
+<meta name="Archived" content="false"/>
+<meta name="hasMultipleVersions" content="true"/>
+<meta name="Last Modified Date" content="Wed Jul 03 04:00:00 PST 2024">
+<meta name="Document Type" content="User Guide"/>
+<meta name="Product Type" content="Design Tools"/>
+<meta name="Document Class" content="Document"/>
+<meta name="FileSize" content="NA"/>
+<meta name="Design Tools" content="Vitis Unified Software Platform"/>
+<meta name="FileVersion" content="2024.2"/>
+<meta name="alertTrigger" content="true"/>
+<meta name="alertDate" content="07/03/2024"/>
+<meta name="xlnxalertwhatsnew" content="Update to 2024.2 documentation."/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="apple-itunes-app" content="app-id=1063287962" />
+<meta name="google-play-app" content="app-id=com.marketing.xilinxgo" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="wh-path2root" content="" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="keywords" content="" /><meta name="description" content="" /><meta name="Language" content="en" /><meta name="Location" content="us" /><meta name="apple-itunes-app" content="app-id=1063287962" /><meta name="google-play-app" content="app-id=com.marketing.xilinxgo" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><meta name="wh-path2root" content="" /><title>Vitis Unified Software Development Platform 2024.2 Documentation</title>
+        
+    	
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico" />	
+    <script src="https://kit.fontawesome.com/d3dd8c60ed.js"></script>
+    
+    <link rel="stylesheet" href="jquery-ui.min.css" type="text/css" />
+    <link rel="stylesheet" href="header-footer.min.css" type="text/css" />
+    
+    <script type="text/javascript" src="jquery.min.js"><!----></script>
+    <script type="text/javascript" src="jquery-ui.min.js"><!----></script>
+    <script type="text/javascript" src="header-footer.min.js"></script>
+    
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css" />	
+        <!-- Latest compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+
+        <link rel="stylesheet" href="./oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+
+        <!-- Template default styles  -->
+        <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic-page.css?buildId=2019083011" />
+        <!-- CSS Google Icons -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+        <script type="text/javascript" src="./oxygen-webhelp/lib/jquery/jquery-3.1.1.min.js"><!----></script>
+
+        <script data-main="./oxygen-webhelp/app/topic-page.js" src="./oxygen-webhelp/lib/requirejs/require.js"></script>
+        
+        <!-- Skin resources -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/xilinx.css?buildId=2019083011" />
+        <!-- EXM-36950 - Expand the args.hdf parameter here -->
+        
+        
+    </head>
+    <body class="wh_main_page">
+        <a href="#content" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+		
+<div class="xilinx-bs3">
+    <noindex>
+        <header data-component="header">
+            <nav class="navbar navbar-default">
+                <div class="container main-nav">
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-2 logo-column">
+                            <div class="logo">
+                                <a href="https://www.amd.com/en.html">
+                                    <img src="https://raw.githubusercontent.com/Xilinx/Image-Collateral/main/xilinx-header-logo.svg" title="Advanced Micro Devices, Inc" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 navbar-column">
+                            <div class="navbar navbar-collapse collapse" id="xilinx-main-menu">
+                                <ul class="nav navbar-nav nav-justified">
+                                    <li class="accordion-toggle-icons" data-component="toggle-dropdown">
+                                        <a href="https://developer.xilinx.com/">
+                                            Developers
+                                        </a>
+                                    </li>
+                                    <li class="accordion-toggle-icons" data-component="toggle-dropdown">
+                                        <a href="https://www.xilinx.com/support.html">
+                                            Support
+                                        </a>
+                                    </li>
+                                    <li class="accordion-toggle-icons" data-component="toggle-dropdown">
+                                        <a href="https://forums.xilinx.com/">
+                                            Forums
+                                        </a>
+                                    </li>
+								</ul>
+                            </div>
+                        </div>
+                        <div class="mini-nav col-sm-2">
+                            <button type="button" data-function="xilinx-mobile-menu" id="nav-toggle" class="navbar-toggle collapsed visible-xs-block" aria-expanded="false">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </noindex>
+</div> 				
+		
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="21.0">
+                    <div align="left"><label for="cars">Choose a language:</label>
+
+<select name="cars" id="language">
+  <option value="en">English</option>
+  <option value="/jp/index.html">日本語</option>
+ </select></div><div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                   <div class=" wh_publication_title "><a href="index.html"><span xmlns="" class="title">Vitis Unified Software Development Platform 2024.2 Documentation</span></a></div>
+                    
+                </div>
+
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+</header>        
+        
+ <!-- Search form  --> 
+        <div class=" wh_search_input navbar-form wh_main_page_search ">
+                       
+          <form id="searchForm" method="get" role="search" action="search.html">
+		  
+        <div class="wh_content_area " id="content">     
+        
+           
+            <!-- This is the placeholder for the main page tiles. -->
+			<div class="wh_tiles" whc:version="21.0">
+ 
+<!-- Accelerated docs -->       
+    <div class="wh_tile" data-id="tile1">
+        <div>
+            <div class="wh_tile_text">
+                <div class=" wh_tile_title ">
+                <span class="topicref">Data Center Acceleration using Vitis (UG1700)</a></span>
+				</div>
+			<div><p>
+			</div>
+		    <div class=" wh_tile_shortdesc ">
+				<p align=center><button type="button"><a href="ug1700-vitis-accelerated-data-center.pdf" target="_blank">Open Document</a></button></p>
+				<p>Describes how to use the Vitis™ development environment for Data Center use cases.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" wh_tile  " data-id="tile2">
+        <div>
+            <div class="wh_tile_text">
+                <div class=" wh_tile_title ">
+                    <span class="topicref">Embedded Design Development using Vitis (UG1701)</a></span>
+                	</div>
+			<div><p>
+			</div>
+                <div class=" wh_tile_shortdesc ">
+				<p align=center><button type="button"><a href="ug1701-vitis-accelerated-embedded.pdf" target="_blank">Open Document</a></button></p>
+				<p>Describes how to use the Vitis development environment designing and integrating an embedded system with AMD tools.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" wh_tile  " data-id="tile3">
+        <div>
+            <div class="wh_tile_text">
+                <div class=" wh_tile_title ">
+                 <span class="topicref">Vitis Reference Guide (UG1702)</a></span>
+                </div>
+                <div class=" wh_tile_shortdesc ">
+				<p align=center><button type="button"><a href="ug1702-vitis-accelerated-reference.pdf" target="_blank">Open Document</a></button></p>
+				<p>Describes the Vitis commands and utilities used to compile and run components of your design.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+    <!-- Embedded Flow docs -->
+ <div class=" wh_tile  " data-id="tile4">
+        <div>
+            <div class="wh_tile_text">
+                <div class=" wh_tile_title ">
+                    <span class="topicref">Embedded Software Development Flow (UG1400)</a></span>
+                </div>
+                <div class=" wh_tile_shortdesc ">
+				<p align=center><button type="button"><a href="ug1400-vitis-embedded.pdf" target="_blank">Open Document</a></button></p>
+				<p>Describes the Vitis unified software platform, an integrated design environment (IDE) for development of embedded software applications targeted towards AMD embedded processors.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" wh_tile  " data-id="tile5">
+        <div>
+            <div class="wh_tile_text">
+                <div class=" wh_tile_title ">
+                    <span class="topicref">Bootgen User Guide<br>(UG1283)</a></span>
+                </div>
+                <div class=" wh_tile_shortdesc ">
+				<p align=center><button type="button"><a href="ug1283-bootgen-user-guide.pdf" target="_blank">Open Document</a></button></p>
+				<p>Describes how to generate boot images for Zynq™ 7000 SoC, 7 series FPGAs, and Versal™ ACAP devices.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" wh_tile  " data-id="tile6">
+        <div>
+            <div class="wh_tile_text">
+                <div class=" wh_tile_title ">
+                    <span class="topicref">Software Command-Line Tool User Guide<br>(UG1725)</a></span>
+                </div>
+                <div class=" wh_tile_shortdesc ">
+				<p align=center><button type="button"><a href="UG1725-sct.pdf" target="_blank">Open Document</a></button></p>
+				<p>Provides the information you need to develop scripts for software development and debug targeting AMD processors.
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" wh_tile  " data-id="tile7">
+        <div>
+            <div class="wh_tile_text">
+                <div class=" wh_tile_title ">
+                    <span class="topicref">Vitis HLS User Guide<br>(UG1399)</a></span>
+                </div>
+                <div class=" wh_tile_shortdesc ">
+				<p align=center><button type="button"><a href="ug1399-vitis-hls.pdf" target="_blank">Open Document</a></button></p>
+				<p>Describes using the Vitis High Level Synthesis tool.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class=" wh_tile  " data-id="tile8">
+        <div>
+            <div class="wh_tile_text">
+                <div class=" wh_tile_title ">
+                    <span class="topicref">AI Engine Tools and Flows Guide (UG1076)</a></span>
+                </div>
+                <div class=" wh_tile_shortdesc ">
+				<p align=center><button type="button"><a href="ug1076-ai-engine-environment.pdf" target="_blank">Open Document</a></button></p>
+				<p>Describes the AI Engine tools and flows.</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <div class=" wh_tile  " data-id="tile9">
+        <div>
+            <div class="wh_tile_text">
+                <div class=" wh_tile_title ">
+                    <span class="topicref">AI Engine Kernel and Graph Programming Guide (UG1079)</a></span>
+                </div>
+                <div class=" wh_tile_shortdesc ">
+				<p align=center><button type="button"><a href="ug1079-ai-engine-kernel-coding.pdf" target="_blank">Open Document</a></button></p>
+				<p>Describes the intricacies of AI Engine kernel and graph programming.</p>
+                </div>
+            </div>
+        </div>
+    </div>   
+    
+</div>
+            <div class="container-fluid wh_content_flex_container">
+
+                
+            </div>
+        </div>
+        
+        <footer class="navbar navbar-default wh_footer" whc:version="21.0">
+  <div class=" footer-container mx-auto ">
+    Copyright 2019-2024 Advanced Micro Devices Inc. UG1416 (v2024.2) July 3, 2024
+  </div>
+</footer>
+        
+        
+    </body>
+</html>
